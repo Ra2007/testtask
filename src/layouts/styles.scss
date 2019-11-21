@@ -1,0 +1,23 @@
+.app-container {
+  padding: 20px;
+}
+
+.tab-wrap {
+  margin: 30px;
+  .input-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .tab-link-wrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+.content {
+  padding: 30px;
+  border: 1px solid #e5e5e5;
+  margin: -31px 30px 30px 30px;
+}

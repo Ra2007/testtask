@@ -11,9 +11,7 @@ import './index.css';
 
 import store from './flex';
 
-axios.defaults.baseURL = 'https://samples.openweathermap.org/data/2.5';
 axios.defaults.headers.post['Content-Type'] = 'application/json';
-axios.defaults.params = { appid: 'a58d438f61269b43b1131353c9e35833' };
 
 ReactDOM.render(
   <Provider store={store}>

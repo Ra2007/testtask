@@ -1,5 +1,12 @@
 import React from 'react';
+import TabContent from '../../components/TabContent';
 
-export default function ActivePage() {
-  return <div className='active-page-wrap'>Active Page!</div>;
+function ActivePage() {
+  return (
+    <div className='active-page-wrap'>
+      <TabContent tab='ACTIVE' />
+    </div>
+  );
 }
+
+export default ActivePage;

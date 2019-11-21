@@ -1,0 +1,27 @@
+.button {
+  padding: 6px;
+  font-size: 14px;
+  border-radius: 3px;
+  border: 0px;
+  background-color: rgb(28, 37, 130);
+  color: #ffffff;
+  margin: 10px;
+  cursor: pointer;
+  &:focus {
+    outline: 0 !important;
+  }
+  &:hover {
+    background-color: rgb(51, 60, 154);
+  }
+  &:active {
+    opacity: 0.5;
+  }
+}
+
+.disabled {
+  background-color: rgb(120, 120, 120);
+  cursor: not-allowed;
+  &:hover {
+    background-color: rgb(120, 120, 120);
+  }
+}

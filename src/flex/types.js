@@ -1,0 +1,7 @@
+export const CITY_SET_ITEM_LIST = 'CITY_SET_ITEM_LIST';
+export const CITY_SET_ERROR = 'CITY_SET_ERROR';
+export const CITY_START = 'CITY_START';
+export const CITY_ITEM_UP = 'CITY_ITEM_UP';
+export const CITY_ITEM_DOWN = 'CITY_ITEM_DOWN';
+export const CITY_SET_STATUS = 'CITY_SET_STATUS';
+export const CITY_ITEM_UPDATE = 'CITY_ITEM_UPDATE';

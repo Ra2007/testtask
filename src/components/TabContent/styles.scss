@@ -1,0 +1,18 @@
+.tab-content-wrap {
+  display: flex;
+  justify-content: center;
+  .table-tab {
+    max-width: 900px;
+    .table-tab-head {
+      height: 50px;
+      font-size: 16px;
+      font-weight: 600;
+      td {
+        width: 230px;
+      }
+    }
+    .table-td {
+      cursor: pointer;
+    }
+  }
+}

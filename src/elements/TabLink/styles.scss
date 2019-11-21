@@ -1,0 +1,19 @@
+.tab-nav-link {
+  width: 150px;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  border-bottom: 1px solid #ffffff;
+  background-color: #e5e5e5;
+  color: rgb(65, 65, 65);
+  text-decoration: none;
+  &:hover {
+    background-color: #f4f4f4;
+  }
+}
+.selected {
+  background-color: #ffffff;
+  color: rgb(21, 21, 21);
+  &:hover {
+    background-color: #ffffff;
+  }
+}
