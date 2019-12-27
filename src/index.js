@@ -6,10 +6,8 @@ import { renderRoutes } from 'react-router-config';
 import Routes from './Routes';
 import * as serviceWorker from './serviceWorker';
 import axios from 'axios';
-
-import './index.css';
-
 import store from './flex';
+import './index.css';
 
 axios.defaults.headers.post['Content-Type'] = 'application/json';
 
